@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coursera</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white text-gray-900">
+    <!-- navbar -->
+    <navbar class="flex justify-between items-center py-4 px-20 border-b border-gray-200">
+      <div class="flex items-center space-x-4">
+        <img src="./coursera-logo.svg" alt="Coursera Logo" class="h-6" />
+        <ul class="flex space-x-4">
+          <button class="ml-4 bg-transparent border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-100">Explore</button>
+        </ul>
+      </div>
+      <div>
+        <a href="#" class="text-blue-600 font-light hover:underline">Log In</a>
+        <a href="#" class="ml-4 bg-transparent border border-blue-600 text-blue-600 font-bold px-4 py-2 rounded hover:bg-blue-100">Join for Free</a>
+      </div>
+    </navbar>
+    <!-- navbar end -->
+
+    <!-- hero -->
+    <div class="flex flex-row px-20">
+      <div class="w-full px-4 py-20">
+        <h1 class="text-6xl font-bold mb-4">Grow your career with Coursera</h1>
+        <p class="text-lg font-extralight mb-8">Feeling stuck in a dead-end job? Learn your way out with 7,000+ learning programs for just $20 a month! <em>(Although, statistically, you're probably still going to be there next year.)</em></p>
+        <div class="flex space-x-4">
+          <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 hover:underline">Start Learning</a>
+          <a href="#" class="bg-transparent border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-100 hover:underline">Procrastinate</a>
+        </div>
+      </div>
+      <div><img src="./hero.png" /></div>
+    </div>
+    <!-- hero end -->
+
+    <!-- partners -->
+    <div class="bg-gray-100 py-20">
+      <h1 class="text-2xl text-center font-medium mb-10">We collaborate with <span class="text-blue-500">325+ leading universities and companies</span></h1>
+      <div class="justify-center flex flex-row">
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/77hmeEJo3ZPlURCU02fD52/aa37b7f7b52285ba350acac62d8af5c1/illinois-3.png?auto=format%2Ccompress&dpr=2&h=32" class="h-9 mr-7" />
+        <img src="./of-logo.png" class="h-8 mr-7" />
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&dpr=2&h=37" class="h-10 mr-7" />
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&dpr=2&h=55" class="h-12 mr-7" />
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3toC4I7jbWxiedfxiyNjtT/735faeaf976a9692f425f8c3a7d125dc/1000px-IBM_logo.svg.png?auto=format%2Ccompress&dpr=2&h=37" class="h-9 mr-7" />
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/FHOd44z40jTFsSSao84AM/d1e357f5650a23bf2936114112d44445/imperial.png?auto=format%2Ccompress&dpr=2&h=35" class="h-9 mr-7" />
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4FSFmNXuDIzTvFb7n0v4mK/704ae9e0a7981fb6415f4cb4609bbbb3/stanford.svg?auto=format%2Ccompress&dpr=2&h=27" class="h-9 mr-7" />
+        <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1ZeiauXe5bPProvfuIo7o2/55d005d42979ab585cdfa01f825b7d4f/penn.svg?auto=format%2Ccompress&dpr=2&h=37" class="h-9 mr-7" />
+      </div>
+    </div>
+    <!-- partners end -->
+
+    <!-- featured courses -->
+    <div class="py-20 px-20">
+      <h2 class="text-4xl font-light mb-2">Featured Courses</h2>
+      <p class="mb-8 text-lg font-extralight">Explore our newest programs, focused on delivering in-demand skills.</p>
+      <div class="flex flex-wrap justify-start">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden m-4 flex flex-col" style="width: 300px; height: 350px">
+          <img class="w-full h-48 object-cover" src="./cat.jpg" alt="Google AI Essentials" />
+          <div class="p-4 flex-grow flex flex-col justify-end">
+            <h3 class="text-xl mb-2">Google AI Essentials</h3>
+            <p class="text-gray-700 text-sm font-extralight">Google</p>
+            <p class="text-gray-700 text-sm font-extralight mt-auto">Course</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden m-4 flex flex-col" style="width: 300px; height: 350px">
+          <img class="w-full h-48 object-cover" src="./cat.jpg" alt="Prompt Engineering" />
+          <div class="p-4 flex-grow flex flex-col justify-end">
+            <h3 class="text-xl mb-2">Prompt Engineering</h3>
+            <p class="text-gray-700 text-sm font-extralight">Vanderbilt University</p>
+            <p class="text-gray-700 text-sm font-extralight mt-auto">Specialization</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden m-4 flex flex-col" style="width: 300px; height: 350px">
+          <img class="w-full h-48 object-cover" src="./cat.jpg" alt="Microsoft Power BI Data Analyst" />
+          <div class="p-4 flex-grow flex flex-col justify-end">
+            <h3 class="text-xl mb-2">Microsoft Power BI Data Analyst</h3>
+            <p class="text-gray-700 text-sm font-extralight">Microsoft</p>
+            <p class="text-gray-700 text-sm font-extralight mt-auto">Professional Certificate</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden m-4 flex flex-col" style="width: 300px; height: 350px">
+          <img class="w-full h-48 object-cover" src="./cat.jpg" alt="Generative AI in Marketing" />
+          <div class="p-4 flex-grow flex flex-col justify-end">
+            <h3 class="text-xl mb-2">Generative AI in Marketing</h3>
+            <p class="text-gray-700 text-sm font-extralight">University of Virginia Darden School of Business</p>
+            <p class="text-gray-700 text-sm font-extralight mt-auto">Specialization</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex space-x-4 mt-8">
+        <a href="" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 hover:underline">Show more</a>
+        <a href="" class="bg-transparent border border-blue-600 text-blue-600 px-6 py-3 rounded hover:bg-blue-100 hover:underline">View all</a>
+      </div>
+    </div>
+    <!-- featured courses end -->
+
+    <!-- footer -->
+    <div class="bg-gray-100 py-40">
+      <p class="text-center text-gray-600 font-extralight text-sm">© 2024 Coursera Inc. All rights reserved.</p>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>

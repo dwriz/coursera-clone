@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white text-gray-900">
+    <!-- navbar -->
+    <navbar class="flex justify-between items-center py-4 px-20 border-b border-gray-200">
+      <div class="flex items-center space-x-4">
+        <img src="./coursera-logo.svg" alt="Coursera Logo" class="h-6" />
+        <ul class="flex space-x-4">
+          <button class="ml-4 bg-transparent border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-100">Explore</button>
+        </ul>
+      </div>
+      <div>
+        <a href="#" class="ml-4 bg-transparent border border-blue-600 text-blue-600 font-bold px-4 py-2 rounded hover:bg-blue-100">Wishlist</a>
+      </div>
+    </navbar>
+    <!-- navbar end -->
+
+    <!-- product detail -->
+    <div class="container mx-auto px-20 py-10">
+      <div class="flex flex-col md:flex-row">
+        <!-- left side : image -->
+        <div class="md:w-1/2 flex justify-center">
+          <div class="w-full h-96 overflow-hidden rounded-lg shadow-lg">
+            <img src="./cat.jpg" class="w-full h-full object-cover" alt="Course Image" />
+          </div>
+        </div>
+        <!-- left side : image end -->
+
+        <!-- right side : details -->
+        <div class="md:w-1/2 md:ml-10 mt-5 md:mt-0">
+          <h1 class="text-4xl font-bold mb-3">Data Science</h1>
+          <p class="text-gray-600 text-lg mb-4">Stay ahead in the industry... before it replaces you.</p>
+          <p class="text-gray-600 mb-4">Perfect for beginners and advanced learners looking to dodge the next wave of layoffs. Gain comprehensive knowledge on data science concepts and practical applications, just in time to impress your boss who never quite remembers your name.</p>
+          <div class="mb-4">
+            <span class="text-2xl font-bold text-blue-600">$49.99</span>
+          </div>
+          <div class="mb-4">
+            <button class="bg-blue-600 text-white rounded px-4 py-2 hover:bg-blue-700">Add to Wishlist</button>
+          </div>
+        </div>
+        <!-- right side : details end -->
+      </div>
+
+      <!-- description wrapper -->
+      <div class="mt-10">
+        <h2 class="text-2xl font-bold mb-3">Course Description</h2>
+        <p class="text-gray-600 mb-4">Ever wonder why your company hired a data science team right before announcing budget cuts? Learn the skills to navigate the office politics of data manipulation, visualization, and statistical analysis. This course is your ticket to staying relevant in a world where your job could be automated tomorrow.</p>
+        <h2 class="text-2xl font-bold mb-3">What You'll Learn</h2>
+        <ul class="list-disc list-inside font-extralight text-gray-600 mb-4">
+          <li>Data manipulation using Pandas and NumPy</li>
+          <li>Data visualization with Matplotlib and Seaborn</li>
+          <li>Statistical analysis and hypothesis testing</li>
+          <li>Machine learning with Scikit-learn</li>
+          <li>SQL for data retrieval and manipulation</li>
+        </ul>
+        <h2 class="text-2xl font-bold mb-3">Course Requirements</h2>
+        <p class="text-gray-600 font-extralight mb-4">No prior experience required. A basic understanding of programming is beneficial but not mandatory.</p>
+      </div>
+      <!-- description wrapper end -->
+    </div>
+    <!-- product detail end -->
+
+    <!-- footer -->
+    <div class="bg-gray-100 py-40 mt-20">
+      <p class="text-center text-gray-600 font-extralight text-sm">© 2024 Coursera Inc. All rights reserved.</p>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>

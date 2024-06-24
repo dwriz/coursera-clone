@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white text-gray-900">
+    <!-- navbar -->
+    <navbar class="flex justify-between items-center py-4 px-20 border-b border-gray-200">
+      <div class="flex items-center space-x-4">
+        <img src="./coursera-logo.svg" alt="Coursera Logo" class="h-6" />
+        <ul class="flex space-x-4">
+          <button class="ml-4 bg-transparent border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-100">Explore</button>
+        </ul>
+      </div>
+      <div>
+        <a href="#" class="ml-4 bg-transparent border border-blue-600 text-blue-600 font-bold px-4 py-2 rounded hover:bg-blue-100">Wishlist</a>
+      </div>
+    </navbar>
+    <!-- navbar end -->
+
+    <!-- wishlist -->
+    <div class="container mx-auto px-20 py-10">
+      <div class="max-w-2xl mx-auto border border-gray-300 rounded-lg p-10">
+        <h1 class="text-4xl font-bold mb-5 text-center">Your Wishlist</h1>
+        <div class="flex justify-center">
+          <div class="w-full">
+            <!-- card example -->
+            <div class="border border-gray-200 rounded-lg p-4 mb-4">
+              <div class="flex justify-between items-center">
+                <div>
+                  <h2 class="text-xl font-semibold">Data Science</h2>
+                  <p class="text-gray-600 ">Stay ahead in the industry... before it replaces you.</p>
+                </div>
+                <button class="bg-red-600 text-white rounded px-3 py-1 hover:bg-red-700 ml-2">Remove</button>
+              </div>
+            </div>
+            <!-- card example end -->
+
+            <!-- card example -->
+            <div class="border border-gray-200 rounded-lg p-4 mb-4">
+              <div class="flex justify-between items-center">
+                <div>
+                  <h2 class="text-xl font-semibold">Machine Learning</h2>
+                  <p class="text-gray-600 font-extralight">Master machine learning and make sure you're the one automating jobs, not the one being automated.</p>
+                </div>
+                <button class="bg-red-600 text-white rounded px-3 py-1 hover:bg-red-700 ml-2">Remove</button>
+              </div>
+            </div>
+            <!-- card example end -->
+
+            <!-- card example -->
+            <div class="border border-gray-200 rounded-lg p-4 mb-4">
+              <div class="flex justify-between items-center">
+                <div>
+                  <h2 class="text-xl font-semibold">Web Development</h2>
+                  <p class="text-gray-600 font-extralight">Become a full-stack developer so you can build websites while dodging office politics and budget cuts.</p>
+                </div>
+                <button class="bg-red-600 text-white rounded px-3 py-1 hover:bg-red-700 ml-2">Remove</button>
+              </div>
+            </div>
+            <!-- card example end -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- wishlist end -->
+
+    <!-- footer -->
+    <div class="bg-gray-100 py-40 mt-20">
+      <p class="text-center text-gray-600 font-extralight text-sm">© 2024 Coursera Inc. All rights reserved.</p>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>
